@@ -1,0 +1,9 @@
+{
+  "name": "vserver",
+  "description": "Virtual Server combining :app, :db and :web",
+  "run_list": [
+    "recipe[java]",
+    "recipe[newrelic_license]",
+    "recipe[newrelic_plugins::mysql]"
+  ]
+}
