@@ -1,20 +1,26 @@
 {
   "id": "newrelic",
   "license_key": {
-    "encrypted_data": "MvixyoDTKoUAPpWMwdlrggGAwUx7wXT1FYxbtLgG4YL0TzfmoO0y9zL1e91f\n4cCe1uYkoh1yGLjuEnd/dHoEtQ==\n",
-    "iv": "4Ey/+jFjPThPztsL6M8Ivw==\n",
+    "encrypted_data": "K9RxPADOhIBYhl1An8YPdJL+/tA/SPlwh17VFIC+VDgmKC4ReQyvkExhqPTk\nVFr9aYJfXBeTIu0A1DSk8LOI9Q==\n",
+    "iv": "CmquwazOHSxMgKeyEy8hHQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "mysql_name": {
+    "encrypted_data": "8UtxDfeZTOBCCRkg0XfMq6hhefNQjR7a8OPpsvN9kRINujlVJmQ8TK1swtZT\nRZ/5\n",
+    "iv": "yjtK2H2LrFsUKMEDJF8NLg==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "mysql_user": {
-    "encrypted_data": "nx70BC4LZ242Tw0aj1+bq7lHtI+mJCVM4YN7fDstNzk=\n",
-    "iv": "VZGMfqZKHTQiQxZxKrtdng==\n",
+    "encrypted_data": "Lg1YqqJZI/CDXMfpX8A+3LxW3Iu69KgsQDrZILT7mhM=\n",
+    "iv": "fDdtiu/v02DLt9h1QRBzlQ==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "mysql_pass": {
-    "encrypted_data": "2Lnr0X7roZbHy4bshLgxiELxTp7g4gat7kGcVBH88+cPRF3BwBMq3VLpozSz\nVerg\n",
-    "iv": "vF+0fDdw0rf8MohotWA4XQ==\n",
+    "encrypted_data": "Z6M4rE5c51AwMYtPmG/pEsDTxuYLfv1ZC2U3Qy/MQaMK37MQ7bKo07unE/Cq\n/ZvM\n",
+    "iv": "XVv8HXSyfLbxXK9VNC2Uwg==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }
