@@ -18,7 +18,7 @@
 # limitations under the License.
 
 # default jdk attributes
-default['java']['jdk_version'] = '6'
+default['java']['jdk_version'] = '7'
 default['java']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "i586"
 default['java']['openjdk_packages'] = []
 default['java']['accept_license_agreement'] = false
@@ -31,7 +31,7 @@ when "windows"
   default['java']['windows']['checksum'] = nil
   default['java']['windows']['package_name'] = "Java(TM) SE Development Kit 7 (64-bit)"
 else
-  default['java']['install_flavor'] = "openjdk"
+  default['java']['install_flavor'] = "oracle"
 end
 
 case node['java']['install_flavor']
@@ -53,7 +53,7 @@ when 'oracle_rpm'
 end
 
 # if you change this to true, you can download directly from Oracle
-default['java']['oracle']['accept_oracle_download_terms'] = false
+default['java']['oracle']['accept_oracle_download_terms'] = true
 
 # direct download paths for oracle, you have been warned!
 
