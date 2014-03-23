@@ -11,3 +11,5 @@ chef_server_url          "https://api.opscode.com/organizations/kluks"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+knife[:secret_file] = "#{ENV['HOME']}/.chef/encrypted_data_bag_secret"
