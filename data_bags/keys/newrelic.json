@@ -1,0 +1,21 @@
+{
+  "id": "newrelic",
+  "license_key": {
+    "encrypted_data": "MvixyoDTKoUAPpWMwdlrggGAwUx7wXT1FYxbtLgG4YL0TzfmoO0y9zL1e91f\n4cCe1uYkoh1yGLjuEnd/dHoEtQ==\n",
+    "iv": "4Ey/+jFjPThPztsL6M8Ivw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "mysql_user": {
+    "encrypted_data": "nx70BC4LZ242Tw0aj1+bq7lHtI+mJCVM4YN7fDstNzk=\n",
+    "iv": "VZGMfqZKHTQiQxZxKrtdng==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "mysql_pass": {
+    "encrypted_data": "2Lnr0X7roZbHy4bshLgxiELxTp7g4gat7kGcVBH88+cPRF3BwBMq3VLpozSz\nVerg\n",
+    "iv": "vF+0fDdw0rf8MohotWA4XQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
