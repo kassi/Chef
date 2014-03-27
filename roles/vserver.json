@@ -4,6 +4,9 @@
   "run_list": [
     "recipe[java]",
     "recipe[newrelic_license]",
-    "recipe[newrelic_plugins::mysql]"
+    "recipe[newrelic::server-monitor-agent]",
+    "recipe[newrelic::meetme-plugin]",
+    "recipe[newrelic_plugins::mysql]",
+    "recipe[newrelic_monitoring]"
   ]
 }
