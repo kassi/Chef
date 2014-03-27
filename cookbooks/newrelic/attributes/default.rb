@@ -9,7 +9,8 @@
 #BASIC CONFIG
 #############
 #license(s)
-default['newrelic']['license'] = nil
+newrelic = Chef::EncryptedDataBagItem.load("keys", "newrelic")
+default['newrelic']['license'] = newrelic["license_key"]
 default['newrelic']['server_monitoring']['license'] = node['newrelic']['license']
 default['newrelic']['application_monitoring']['license'] = node['newrelic']['license']
 default['newrelic']['plugin_monitoring']['license'] = node['newrelic']['license']

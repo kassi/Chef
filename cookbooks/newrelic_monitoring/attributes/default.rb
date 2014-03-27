@@ -17,4 +17,5 @@
 # limitations under the License.
 #
 
-default['newrelic']['license_key'] = "SET_THIS"
+newrelic = Chef::EncryptedDataBagItem.load("keys", "newrelic")
+default['newrelic']['license_key'] = newrelic["license_key"]
